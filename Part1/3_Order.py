@@ -26,3 +26,10 @@
 
 # Write your code here:
 
+number=int(input())
+if number<1000:
+    print("This number is smaller than 1000")
+if number<100:
+    print("This number is smaller than 100")
+if number<10:
+    print("This number is smaller than 10")

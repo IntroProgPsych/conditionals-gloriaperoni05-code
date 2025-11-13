@@ -1,4 +1,4 @@
-# Please write a program which asks the user for an integer number.
+ #Please write a program which asks the user for an integer number.
 # The program should print out "Orwell" if the number is exactly 1984, and otherwise do nothing.
 
 # Sample output
@@ -9,3 +9,9 @@
 # Orwell
 
 # Write your code here:
+number=int(input())
+if number==1984:
+    print("Orwell")
+    
+
+ 
