@@ -30,3 +30,12 @@
 
 # Write your code here:
 
+number1=int(input())
+number2=int(input())
+operation=input()
+if operation=="add":
+  print(number1+number2)
+elif operation=="subract":
+  print(number1-number2)
+elif operation=="multiply":
+   print(number1*number2)
